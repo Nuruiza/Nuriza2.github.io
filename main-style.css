@@ -1,33 +1,42 @@
-*{
-	/* margin: 0;
-	padding: 0; */
-	font-family: "Trebuchet MS", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header, footer {
-	background: rgb(0,120,191);
-	color: white;
+body {
+  background: linear-gradient(45deg, rgb(240, 240, 240), rgb(144, 139, 139));
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("bg2.jpg") no-repeat center;
 }
 
-ul {
-	/* padding: 25px; */
-	background: rgb(62,183,255);
-	color:black;
+.target {
+  position: absolute;
+  top: 20%;
+  right: 29%;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border: 2px solid black;
 }
-li{
-	list-style: none;
-	padding: 10px 10px 10px 25px;
-	background: white;	
-	position:relative;
-	
+li {
+  width: 20px;
+  height: 20px;
+  list-style: none;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50%;
 }
-li:before{
-	display: block;
-	content: "";
-	position: absolute;
-	top:0;
-	left:0;
-	width: 2px;
-	height: 100%;
-	background: blue;
+.shooter-2 {
+  position: absolute;
+  top: 30%;
+  right: 29%;
 }
